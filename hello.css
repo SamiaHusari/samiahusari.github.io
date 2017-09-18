@@ -1,0 +1,183 @@
+.top {
+  font-family: arial;
+}
+
+
+.top {
+  height: 40px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+  .top_aboutme {
+    font-size: 10px;
+    text-transform: uppercase;
+    float: left;
+    border: solid 1px black;
+    padding: 2px;
+  }
+  .top_notaboutme {
+    font-size: 10px;
+    text-transform: uppercase;
+    float: right;
+    border: solid 1px black;
+    padding: 2px;
+  }
+  .top_aboutme:hover{
+    color: cyan;
+    border: solid 1px white;
+    padding: 2px;
+  }
+  .top_notaboutme:hover{
+    color: magenta;
+    border: solid 1px white;
+    padding: 2px;
+  }
+.center {
+  align-items: center;
+  background-color: white;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+}
+
+.top_aboutme a:hover {
+  color: cyan;
+}
+
+
+
+  .center_intro {
+    margin: 20px;
+  }
+    .center_intro_slogan {
+      font-size: 10px;
+      color: black;
+      text-align: center;
+      margin-bottom: 20px;
+      width: 620px;
+      padding-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .center_intro_logo {
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .center_intro_logo:hover {
+      color: lime;
+    }
+
+  .center_feature {
+    height: 400px;
+    padding: 20px;
+  }
+  .center_feature_text {
+    text-align: center;
+    letter-spacing: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+  }
+    .center_feature_r1_box {
+      margin: 50px;
+      padding: 20px;
+      float: left;
+      position: relative;
+      height: 60%;
+      width: calc(50% - 120px);
+    }
+      .center_feature_r1_text {
+        font-family: monospace;
+        color: black;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        text-align: center;
+      }
+      .center_feature_r1_body {
+        color: black;
+        font-size: 10px;
+      }
+
+    .center_feature_r2_box {
+      margin: 50px;
+      padding: 20px;
+      float: left;
+      position: relative;
+      height: 60%;
+      width: calc(50% - 120px);
+    }
+      .center_feature_r2_text {
+        font-family: monospace;
+        color: black;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        text-align: center;
+      }
+      .center_feature_r2_body {
+        color: black;
+        font-size: 10px;
+      }
+
+
+  .center_doodle_box {
+    margin: 10px;
+    }
+    .center_doodle_leftlogo {
+      background-size: 100px;
+      font-size: 100px;
+      color: white;
+      position: fixed;
+      top: 40px;
+      left: 100px;
+    }
+  .center_doodle_leftlogo:hover {
+      color: red;
+    }
+
+    .center_doodle_photo {
+    background: url(file:///Users/samiahusari/Documents/Samia%20Husari/Me/Behance/Oodles%20of%20Doodles%20%7C%20Illustration/doodles-1.gif) center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    }
+    .center_doodle_photo:hover {
+    filter:invert();
+    }
+
+    .center_doodle_rightlogo {
+      background-size: 400px;
+      font-size: 400px;
+      color: white;
+      position: fixed;
+      top: 300px;
+      right: 50px;
+    }
+    .center_doodle_rightlogo:hover {
+      color: blue;
+    }
+
+
+.bottom {
+  background-color: black;
+  height: 50px;
+  margin-top: 50px;
+  padding: 15px;
+  position: relative;
+}
+  .bottom_disclaimer {
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 60px;
+    text-align: center;
+  }
+  .bottom_disclaimer:hover {
+    color: yellow;
+  }
