@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    height: 630px;
+    width: 1475px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.c {
+    display: inline-block;
+    margin: 1px;
+    width: 15px;
+    height:15px;
+    overflow: hidden;
+  }
+  
+  .c1 { background: #333; }
+
+  .c1:hover { background: #fff }
+
+  .c3:hover { background: red;}
+
+  .c2 { 
+    background: #000;
+    animation-duration: 0.5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    }
+
+.c3 {
+    background: #000;
+    animation-duration: 0.5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+ @keyframes blink {
+    0% {background: #333;}
+    50% {background: #000;}
+    100% {background: #333;}
+  }
