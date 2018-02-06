@@ -30,8 +30,14 @@ body {
 
   .c1:hover { background: #000 }
 
-  .c3:hover { background:#fff ;}
-  .c3:active { background:#f00 ;}
+  .c3:hover { 
+      background:#fff ;
+      text-decoration: none;
+    }
+      
+  .c3:active { background:#f00;
+    text-decoration: none;
+    }
 
   .c2 { 
     background: #000;
