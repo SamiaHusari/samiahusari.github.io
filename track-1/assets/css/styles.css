@@ -22,10 +22,16 @@ body {
   }
   
   .c1 { background: #333; }
+  
+  .c3 { 
+    background: #333;
+    text-decoration: none; 
+    }
 
-  .c1:hover { background: #fff }
+  .c1:hover { background: #000 }
 
-  .c3:hover { background: red;}
+  .c3:hover { background:#fff ;}
+  .c3:active { background:#f00 ;}
 
   .c2 { 
     background: #000;
@@ -34,14 +40,6 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     }
-
-.c3 {
-    background: #000;
-    animation-duration: 0.5s;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
 
  @keyframes blink {
     0% {background: #333;}
