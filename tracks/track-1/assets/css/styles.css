@@ -32,7 +32,7 @@ body {
 
 
 .f {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   cursor: all-scroll;
   width: 100px;
   height: 100px;
