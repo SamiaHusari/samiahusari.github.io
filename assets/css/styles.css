@@ -1,16 +1,29 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline solid 1px blue;
+}
+
 body {
   font-family: Courier;
-  font-size: 14px;
+  font-size: 12px;
   background-color: aqua;
   margin: 50px;
   text-align: center;
 }
-h{
+ 
+.name{
   text-transform: uppercase; 
   letter-spacing: 10px;
+  padding-top: 200px;
+  color: #fff;
 }
 
 .title {
   font-size: 20px; 
   padding: 50px;
-}
+} 
