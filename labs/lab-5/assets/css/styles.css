@@ -16,12 +16,62 @@ body {
   padding: 25px;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
-.cart {
+.cart-button {
   position: absolute;
   top: 25px;
   right: 25px;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #f00;
+  color: #fff;
+  width: 675px;
+  padding: 40px;
+}
+
+.close-button {
+  text-align: right;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 25px;
+}
+
+.line-item {
+  position: relative; 
+  padding: 25px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.line-item-img {
+  width: 100px;
+  height: 100px;
+  background: url("../img/b.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  /* the dot dot is used to relink to the relative path.
+  it needs to go back one folder and then go back in */
+}
+
+.line-item-price {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%)
+
+}
+
+.checkout-button {
+  text-align: center;
+  background: #fff;
+  color: #000;
+  padding: 25px;
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 .content {
