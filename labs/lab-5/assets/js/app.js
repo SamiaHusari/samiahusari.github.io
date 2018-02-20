@@ -10,3 +10,10 @@ $('.item').click(function() {
   }
  
 });
+
+$('.cart-toggle').click(function(){
+  $('.cart').toggleClass('hide');
+});
+
+
+// toggle works best for binary situations/
