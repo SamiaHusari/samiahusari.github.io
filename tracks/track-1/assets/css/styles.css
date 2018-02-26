@@ -1,79 +1,54 @@
 * {box-sizing: border-box;}
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 0;
+    background-color: #000;
 }
 
-.b {
-  height: 3000px;
-  width: 25%;
-  display: inline-block;
-  font-size: 10px;
-  text-align: center;
-  font-family: Courier;
-  text-transform: uppercase;
-  color: #fff;
+.wrapper {
+    height: 630px;
+    width: 1475px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.b1 {background: #111;}
-.text1 {position: relative; top: 500px;}
+.c {
+    display: inline-block;
+    margin: 1px;
+    width: 15px;
+    height:15px;
+    overflow: hidden;
+  }
+  
+  .c1 { background: #333; }
+  
+  .c3 { 
+    background: #333;
+    text-decoration: none; 
+    }
 
-.b2 {background: #222;}
-.text2 {position: relative; top: 1000px;}
+  .c1:hover { background: #000 }
 
-.b3 {background: #333;}
-.text3 {position: relative; top: 2px;}
+  .c3:hover { 
+      background:#fff ;
+      text-decoration: none;
+    }
+      
+  .c3:active { background:#f00;
+    text-decoration: none;
+    }
 
-.b4 {background: #444;}
-.text4 {position: relative; top: 2900px;}
+  .c2 { 
+    background: #000;
+    animation-duration: 0.5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    }
 
-
-
-.f {
-  /* border: 1px solid white; */
-  cursor: all-scroll;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  position: absolute;
-}
-.f:active {
-  cursor: none;
-}
-
-.f1 {
-  position: absolute;
-  background: #111;
-  top: 450px;
-  left: 12.5%;
-  transform: translateX(-50%);
-}
-
-.f2 {
-  position: absolute; 
-  background: #222;
-  top: 950px;
-  left: 37.5%;
-  transform: translateX(-50%);
-}
-.f3 {
-  position: absolute;
-  background: #333;
-  top: 0px;
-  left: 62.5%;
-  transform: translateX(-50%);
-}
-.f4 {
-  position: absolute;
-  background: #444;
-  top: 2850px;
-  left: 87.5%;
-  transform: translateX(-50%);
-}
-
-
-
-
-
+ @keyframes blink {
+    0% {background: #333;}
+    50% {background: #000;}
+    100% {background: #333;}
+  }
