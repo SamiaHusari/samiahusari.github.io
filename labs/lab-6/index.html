@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lab 1</title>
+    <title>Lab 6</title>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -9,31 +9,67 @@
 
 
   <body>
-
     <div class="header">
-      Header
+      rare stuff
+      <div class="cart-button cart-toggle"> Cart (<span class='item-count'>0</span>)</div> 
+      <div class="cart hide">
+        <div class="close-button cart-toggle">Close</div>
+        <div class="line-items"></div>
+        <div class="total-wrapper">
+          Total <span data-value="0" class="total">0</span>
+        </div>
+        <div class="checkout-button">Check out</div>
+      </div>
     </div>
 
-    <div class="body">
-      <h1> Hello World - Lab 1 </h1>
-      <h2>h2</h2>
-      <h3>h3</h3>
-      <h4>h4</h4>
-      <h5>h5</h5>
-      <h6>h6</h6>
-      This is not a paragraph.
-      This is not a paragraph.
-
-      <p>This <strong>is</strong> a paragraph.</p>
-      <p>This is a paragraph.</p>
-      <p>This is a <br /> break.</p>
-      <img src="assets/img/matisse-the-dessert.jpg" />
-    </div>
-
-<br />
-
-    <div class="footer">
-      Footer
+    <div class="content">
+      <div data-price="$999" data-value="999" data-img="a" class="item">
+        <img src="assets/img/a.jpg" >
+          <div class="description">
+           $999. <span data-value="0" class="add-button">Add</span>
+          </div>
+      </div>
+      <div data-price="$799" data-value="799" data-img="b" class="item">
+        <img src="assets/img/b.jpg" >
+        <div class="description">
+          $799. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$599" data-value="599" data-img="c" class="item">
+        <img src="assets/img/c.jpg" >
+        <div class="description">
+          $599. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$32.99" data-value="32.99" data-img="d" class="item">
+        <img src="assets/img/d.jpg" >
+        <div class="description">
+          $32.99. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$2,999" data-value="2999" data-img="e" class="item">
+        <img src="assets/img/e.jpg" >
+        <div class="description">
+          $2,999. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$499" data-value="499" data-img="f" class="item">
+        <img src="assets/img/f.jpg" >
+        <div class="description">
+          $499. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$9,999" data-value="9999" data-img="g" class="item">
+        <img src="assets/img/g.jpg" >
+        <div class="description">
+          $9,999. <span class="add-button">Add</span>
+        </div>
+      </div>
+      <div data-price="$1,999" data-value="1999" data-img="h" class="item">
+        <img src="assets/img/h.jpg" >
+        <div class="description">
+          $1,799. <span class="add-button">Add</span>
+        </div>
     </div>
 
     <script src="assets/js/app.js"></script>
