@@ -9,6 +9,9 @@ body {
   color: #333;
   overflow-x: hidden;
 }
+a:hover {
+  color: #f00;
+}
 
 body * {
   z-index: 20;
@@ -30,6 +33,7 @@ body * {
   position: relative;
   top: 680px;
 }
+
 
 
 

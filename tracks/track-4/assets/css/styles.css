@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
+
+.wrapper {
+  margin: 40px auto;
+}
+
+.element {
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+}
+
+.element p {
+  visibility: hidden;
+}
+
+.element:-webkit-full-screen {
+  background-color:#000;
+  width: 100%;
+  height: 100%;
+}
+
+.element:-webkit-full-screen p {
+  visibility: visible;
+}
+
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: yellow;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+}
+
+button:active {
+  background-color: #000;
+}

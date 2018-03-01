@@ -9,8 +9,15 @@
 
   <body>
 
-    Track 3
-    <script src="assets/js/app.js"></script>
-
+    <div class="wrapper">
+      <p>Now it's your turn to hide.</p>
+      <div class="element" id="element">
+        <p>I'm coming.</p>
+        <div class="coundown"></div>
+      </div>
+      <br>
+      <button onclick="var el = document.getElementById('element'); el.webkitRequestFullscreen();">Count</button>
+    </div>
+    
   </body>
 </html>
