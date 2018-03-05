@@ -10,48 +10,37 @@ body {
   height: 3000px;
   width: 25%;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   font-family: Courier;
   text-transform: uppercase;
-  color: #777;
+  background-color: #000;
+  border: #333 solid 2px;
+  color: #333;
 }
 
-.f:hover {
-  background: #fff;
-}
+.f:hover {background: #333;}
 
-.b1 {background: #111;}
 .text1 {position: relative; top: 500px;}
 
-.b2 {background: #222;}
 .text2 {position: relative; top: 1000px;}
 
-.b3 {background: #333;}
 .text3 {position: relative; top: 50px;}
 
-.b4 {background: #444;}
 .text4 {position: relative; top: 2900px;}
 
-.text4:hover {
-  color:#fff;
-}
-
 .f {
-  /* border: 1px solid white; */
   cursor: all-scroll;
   width: 100px;
   height: 100px;
   margin: 0 auto;
   position: absolute;
+  background-color: #000;
 }
-.f:active {
-  cursor: none;
-}
+.f:active {cursor: none;}
 
 .f1 {
   position: absolute;
-  background: #111;
   top: 450px;
   left: 12.5%;
   transform: translateX(-50%);
@@ -59,25 +48,28 @@ body {
 
 .f2 {
   position: absolute; 
-  background: #222;
   top: 950px;
   left: 37.5%;
   transform: translateX(-50%);
 }
+
 .f3 {
   position: absolute;
-  background: #333;
-  top: 0px;
+  top: 10px;
   left: 62.5%;
   transform: translateX(-50%);
 }
+
 .f4 {
   position: absolute;
-  background: #444;
   top: 2850px;
   left: 87.5%;
   transform: translateX(-50%);
 }
+
+a {color: #fff;}
+
+a:hover {color:red;}
 
 
 

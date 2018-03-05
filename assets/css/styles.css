@@ -1,9 +1,14 @@
+a {
+  color: (0 0 0 80);
+  text-decoration: none;
+}
+
 body {
   color: #fff;
   background: linear-gradient(#23074d, #cc5333);
   background-attachment: fixed;
   font-family: Courier;
-  font-size: 12px;
+  font-size: 14px;
   margin: 50px;
   text-align: center;
   position: relative;
@@ -22,7 +27,7 @@ body {
 
 .name{
   text-transform: uppercase; 
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   padding-top: 200px;
   color: #fff;
   transform: rotate3d(180);
@@ -33,11 +38,8 @@ body {
   padding: 50px;
 } 
 
-a {
-  color: (0 0 0 80);
-  text-decoration: none;
-}
-
 a:hover {color: #fff}
 
 a:visited {color: none}
+
+a:link {color: none}

@@ -1,11 +1,11 @@
 body {
+  padding-top: 230px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   text-align: center;
-  background-color: #000;
-  color: white;
+  background-color: #fff;
+  color: #000
 }
-
 
 .wrapper {
   margin: 40px auto;
@@ -22,7 +22,9 @@ body {
 }
 
 .element:-webkit-full-screen {
+  padding:1000px;
   background-color:#000;
+  color: #333;
   width: 100%;
   height: 100%;
 }
@@ -31,11 +33,10 @@ body {
   visibility: visible;
 }
 
-
 button {
   font-family: 'Courier New', Courier, monospace;
-  background-color: yellow;
-  color: #000;
+  background-color: #000;
+  color: red;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -43,6 +44,6 @@ button {
   font-size: 40px;
 }
 
-button:active {
-  background-color: #000;
-}
+button:active {color: #000;}
+
+button:hover {color: #000;}

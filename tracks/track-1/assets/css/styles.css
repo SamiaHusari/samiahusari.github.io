@@ -35,7 +35,7 @@ body {
       text-decoration: none;
     }
       
-  .c3:active { background:#f00;
+  .c3:active { background:red;
     text-decoration: none;
     }
 
@@ -52,3 +52,10 @@ body {
     50% {background: #000;}
     100% {background: #333;}
   }
+
+.instructions {
+  color: #333;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
