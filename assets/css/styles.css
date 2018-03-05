@@ -1,26 +1,40 @@
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
-  text-decoration: underline solid 1px blue;
+  color: cyan;
 }
 
 body {
+  color: #fff;
+  background: linear-gradient(#93278F, #00A99D);
+  background-attachment: fixed;
   font-family: Courier;
   font-size: 12px;
-  background-color: aqua;
   margin: 50px;
   text-align: center;
+  position: relative;
 }
- 
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 500px;
+	height: 500px;
+	background: linear-gradient(#93278F, #00A99D);
+	border-radius: 50%;
+}
+
 .name{
   text-transform: uppercase; 
   letter-spacing: 10px;
   padding-top: 200px;
   color: #fff;
+  transform: rotate3d(180);
 }
 
 .title {
